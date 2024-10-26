@@ -40,9 +40,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     const msPerSixteenthBeat = msPerFullBeat / 16;
 
                     terminalBody.innerHTML += `\nResults for ${bpm} BPM:\n` +
-                        `${msPerFullBeat.toFixed(2)} ms per beat note\n` +
-                        `${msPerHalfBeat.toFixed(2)} ms per half beat note\n` +
-                        `${msPerQuarterBeat.toFixed(2)} ms per quarter beat note\n` +
+                        `${msPerFullBeat.toFixed(2)} ms per beat \n` +
+                        `${msPerHalfBeat.toFixed(2)} ms per half beat \n` +
+                        `${msPerQuarterBeat.toFixed(2)} ms per quarter beat \n` +
                         `${msPerEighthBeat.toFixed(2)} ms per eighth beat\n` +
                         `${msPerSixteenthBeat.toFixed(2)} ms per sixteenth beat\n`;
                     terminalInput.placeholder = 'Press Enter to start again...';
