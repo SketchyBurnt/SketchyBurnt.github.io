@@ -9,21 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
         return msPerMinute / bpm;
     }
 
-    function initialize() {
-        terminalBody.innerHTML += 'Press Enter to start the BPM Calculator...\n';
-        terminalInput.placeholder = '';
-
-        terminalInput.onkeydown = (e) => {
-            if (e.key === 'Enter' && terminalInput.value.trim() === '') {
-                startCalculator();
-            }
-        };
-    }
-
     function startCalculator() {
         terminalBody.innerHTML += 'Welcome to the BPM Calculator!\n';
         getBpm(); // Start the BPM calculation process
     }
+startCalculator();
 
     function getBpm() {
         terminalBody.innerHTML += 'Please enter the BPM:\n';
