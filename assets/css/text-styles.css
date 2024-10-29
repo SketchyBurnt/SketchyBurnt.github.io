@@ -1,0 +1,11 @@
+#intro h1 {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 2px 4px black, -2px -2px 4px black, -2px 2px 4px black, 2px -2px 4px black;
+}
